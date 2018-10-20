@@ -1,0 +1,178 @@
+[
+  {
+    "startMood": 2,
+    "endMood": 4,
+    "day": "Monday",
+  },
+
+   {
+    "startMood": 5,
+    "endMood": 5,
+    "day": "Monday",
+  },
+
+   {
+    "startMood": 1,
+    "endMood": 8,
+    "day": "Monday",
+  },
+
+   {
+    "startMood": 9,
+    "endMood": 1,
+    "day": "Monday",
+  },
+
+   {
+    "startMood": 10,
+    "endMood": 3,
+    "day": "Monday",
+  	},
+
+   {
+    "startMood": 2,
+    "endMood": 8,
+    "day": "Monday",
+  },
+
+   {
+    "startMood": 2,
+    "endMood": 6,
+    "day": "Monday",
+  },
+]
+
+
+
+[
+  {
+    "sad": 1,
+    "nervous": 2,
+    "happy": 4,
+    "bored": 3,
+    "angry": 0,
+  }
+]
+
+
+
+
+[
+	{
+  	"points": 100,
+  },
+
+  {
+  	"points": 200,
+  },
+
+  {
+  	"points": 400,
+  },
+
+  {
+  	"points": 50,
+  },
+
+  {
+  	"points": 10,
+  },
+
+  {
+  	"points": 1000,
+  },
+
+  {
+ 		"points": 25,
+  }
+]
+
+
+
+[
+  {
+    "name": "Diana",
+    "avatar": 1,
+    "havePet": true,
+    "ableToWalk": false,
+  },
+
+  {
+    "name": "Sarah",
+    "avatar": 2,
+    "havePet": true,
+    "ableToWalk": true,
+  },
+
+  {
+    "name": "Sadakat",
+    "avatar": 3,
+    "havePet": false,
+    "ableToWalk": false,
+  },
+
+  {
+    "name": "Chiddy",
+    "avatar": 4,
+    "havePet": true,
+    "ableToWalk": true,
+  },
+
+  {
+    "name": "Ann",
+    "avatar": 5,
+    "havePet": true,
+    "ableToWalk": false,
+  },
+
+  {
+    "name": "Mustafa",
+    "avatar": 6,
+    "havePet": false,
+    "ableToWalk": true,
+  },
+]
+
+
+
+[
+  {
+    "writingCount": 9,
+    "walkingCount": 6,
+    "petsCount": 7,
+    "musicCount": 14,
+    "meditationCount": 2,
+    "familyCount": 10,
+    "numOfTasks": 10,
+  },
+
+  {
+    "writingCount": 5,
+    "walkingCount": 6,
+    "petsCount": 1,
+    "musicCount": 7,
+    "meditationCount": 14,
+    "familyCount": 5,
+    "numOfTasks": 2,
+  },
+
+  {
+    "writingCount": 9,
+    "walkingCount": 3,
+    "petsCount": 8,
+    "musicCount": 4,
+    "meditationCount": 12,
+    "familyCount": 1,
+    "numOfTasks": 2,
+  },
+
+  {
+    "writingCount": 14,
+    "walkingCount": 3,
+    "petsCount": 7,
+    "musicCount": 12,
+    "meditationCount": 4,
+    "familyCount": 14,
+    "numOfTasks": 8,
+   },
+]
