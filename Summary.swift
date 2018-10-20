@@ -30,9 +30,9 @@ struct Summary {
     
     func updateRankings(task: Activity) {
         if (self.rankings) {
-        this.rankings.put(task, this.rankings.get(task) + 1);
+            self.rankings[task] = self.rankings[task] + 1;
         } else {
-        this.rankings.put(task, 1);
+            self.rankings[task] = 1
         }
     }
     
