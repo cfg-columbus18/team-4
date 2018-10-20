@@ -355,14 +355,15 @@ So lets go!</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uFz-fu-J4J">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFz-fu-J4J">
                                 <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="CRISIS MODE" id="V7p-cS-neB">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="1wK-8d-giC">
                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
-                                                <action selector="backTapped:" destination="y4n-WJ-N5Y" id="h6q-YX-shX"/>
+                                                <action selector="backButtonTapped:" destination="y4n-WJ-N5Y" id="4b9-MY-u9g"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -377,24 +378,15 @@ So lets go!</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="440-260-8596" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymb-hM-zse">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="440-260-8596" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymb-hM-zse">
                                 <rect key="frame" x="41" y="226" width="308" height="39.666666666666657"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="308" id="CEb-2n-eze"/>
-                                    <constraint firstAttribute="height" constant="39.5" id="HM9-el-7UU"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="uFz-fu-J4J" firstAttribute="top" secondItem="mDz-6C-AwK" secondAttribute="top" id="5gT-mN-yTM"/>
-                            <constraint firstItem="ymb-hM-zse" firstAttribute="top" secondItem="uFz-fu-J4J" secondAttribute="bottom" constant="98" id="FWy-L4-V6c"/>
-                            <constraint firstItem="uFz-fu-J4J" firstAttribute="leading" secondItem="uEr-p7-Ac1" secondAttribute="leading" id="WLc-yP-qpY"/>
-                            <constraint firstItem="mDz-6C-AwK" firstAttribute="trailing" secondItem="uFz-fu-J4J" secondAttribute="trailing" id="sfY-vr-wkI"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="mDz-6C-AwK"/>
                     </view>
                 </viewController>

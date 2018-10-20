@@ -18,6 +18,7 @@
 		01C4F754217B47AE007D4366 /* DailyFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C4F753217B47AE007D4366 /* DailyFlow.storyboard */; };
 		01C4F756217B47BE007D4366 /* FeelingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4F755217B47BD007D4366 /* FeelingViewController.swift */; };
 		01C4F758217B47CE007D4366 /* ActivityFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4F757217B47CE007D4366 /* ActivityFeedViewController.swift */; };
+		01C4F75A217B57F3007D4366 /* TelephoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4F759217B57F3007D4366 /* TelephoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		01C4F753217B47AE007D4366 /* DailyFlow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DailyFlow.storyboard; sourceTree = "<group>"; };
 		01C4F755217B47BD007D4366 /* FeelingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeelingViewController.swift; sourceTree = "<group>"; };
 		01C4F757217B47CE007D4366 /* ActivityFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityFeedViewController.swift; sourceTree = "<group>"; };
+		01C4F759217B57F3007D4366 /* TelephoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelephoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				01466F81217B297000828BD6 /* AviViewController.swift */,
 				01466F83217B2EB800828BD6 /* AcivityViewController.swift */,
 				01C4F753217B47AE007D4366 /* DailyFlow.storyboard */,
+				01C4F759217B57F3007D4366 /* TelephoneViewController.swift */,
 			);
 			path = GuideMe;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				01BF5384217AB66A00FF0DF6 /* ViewController.swift in Sources */,
 				01466F82217B297000828BD6 /* AviViewController.swift in Sources */,
 				01BF5382217AB66A00FF0DF6 /* AppDelegate.swift in Sources */,
+				01C4F75A217B57F3007D4366 /* TelephoneViewController.swift in Sources */,
 				01466F84217B2EB800828BD6 /* AcivityViewController.swift in Sources */,
 				01C4F758217B47CE007D4366 /* ActivityFeedViewController.swift in Sources */,
 				01466F7E217B20A700828BD6 /* NameViewController.swift in Sources */,

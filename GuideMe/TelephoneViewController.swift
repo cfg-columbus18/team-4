@@ -1,5 +1,5 @@
 //
-//  NameViewController.swift
+//  TelephoneViewController.swift
 //  GuideMe
 //
 //  Created by Mustafa Nor on 10/20/18.
@@ -8,30 +8,16 @@
 
 import UIKit
 
-class NameViewController: UIViewController ,UITextFieldDelegate {
+class TelephoneViewController: UIViewController {
 
-    @IBOutlet weak var usrName: UITextField!
-    
-    @IBOutlet weak var usrBTN: UIButton!
-    
-    @IBOutlet weak var usrView: UIView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        usrBTN.isHidden = false
-        usrView.isHidden = false
-    }
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        textField.resignFirstResponder()
-    }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        self.view.endEditing(true)
-        return false
+    @IBAction func backButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     /*
