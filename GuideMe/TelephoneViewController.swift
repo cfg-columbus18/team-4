@@ -10,6 +10,7 @@ import UIKit
 
 class TelephoneViewController: UIViewController {
 
+    @IBOutlet weak var phoneNum: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +21,14 @@ class TelephoneViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func callButton(sender: AnyObject) {
+        //let num = self.phoneNum.text
+        
+//        if let url = URL(string: "tel://\(num)") {
+//            UIApplication.shared.openURL(url)
+//        }
+
+    }
     /*
     // MARK: - Navigation
 

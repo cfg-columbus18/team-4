@@ -19,6 +19,8 @@
 		01C4F756217B47BE007D4366 /* FeelingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4F755217B47BD007D4366 /* FeelingViewController.swift */; };
 		01C4F758217B47CE007D4366 /* ActivityFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4F757217B47CE007D4366 /* ActivityFeedViewController.swift */; };
 		01C4F75A217B57F3007D4366 /* TelephoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4F759217B57F3007D4366 /* TelephoneViewController.swift */; };
+		01C4F77F217B63B3007D4366 /* GuideMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01C4F77D217B63B3007D4366 /* GuideMe.xcdatamodeld */; };
+		01C4F781217B676C007D4366 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4F780217B676C007D4366 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		01C4F755217B47BD007D4366 /* FeelingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeelingViewController.swift; sourceTree = "<group>"; };
 		01C4F757217B47CE007D4366 /* ActivityFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityFeedViewController.swift; sourceTree = "<group>"; };
 		01C4F759217B57F3007D4366 /* TelephoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelephoneViewController.swift; sourceTree = "<group>"; };
+		01C4F77E217B63B3007D4366 /* GuideMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuideMe.xcdatamodel; sourceTree = "<group>"; };
+		01C4F780217B676C007D4366 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		01BF5380217AB66A00FF0DF6 /* GuideMe */ = {
 			isa = PBXGroup;
 			children = (
+				01C4F77C217B6394007D4366 /* Core Data */,
 				01BF5381217AB66A00FF0DF6 /* AppDelegate.swift */,
 				01BF5383217AB66A00FF0DF6 /* ViewController.swift */,
 				01BF5385217AB66A00FF0DF6 /* Main.storyboard */,
@@ -83,6 +88,15 @@
 				01C4F759217B57F3007D4366 /* TelephoneViewController.swift */,
 			);
 			path = GuideMe;
+			sourceTree = "<group>";
+		};
+		01C4F77C217B6394007D4366 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				01C4F77D217B63B3007D4366 /* GuideMe.xcdatamodeld */,
+				01C4F780217B676C007D4366 /* CoreDataStack.swift */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +174,9 @@
 				01BF5384217AB66A00FF0DF6 /* ViewController.swift in Sources */,
 				01466F82217B297000828BD6 /* AviViewController.swift in Sources */,
 				01BF5382217AB66A00FF0DF6 /* AppDelegate.swift in Sources */,
+				01C4F77F217B63B3007D4366 /* GuideMe.xcdatamodeld in Sources */,
 				01C4F75A217B57F3007D4366 /* TelephoneViewController.swift in Sources */,
+				01C4F781217B676C007D4366 /* CoreDataStack.swift in Sources */,
 				01466F84217B2EB800828BD6 /* AcivityViewController.swift in Sources */,
 				01C4F758217B47CE007D4366 /* ActivityFeedViewController.swift in Sources */,
 				01466F7E217B20A700828BD6 /* NameViewController.swift in Sources */,
@@ -364,6 +380,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01C4F77D217B63B3007D4366 /* GuideMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01C4F77E217B63B3007D4366 /* GuideMe.xcdatamodel */,
+			);
+			currentVersion = 01C4F77E217B63B3007D4366 /* GuideMe.xcdatamodel */;
+			path = GuideMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 01BF5376217AB66A00FF0DF6 /* Project object */;
 }
